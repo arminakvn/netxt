@@ -1,0 +1,22 @@
+{
+  "name": "netxt",
+  "version": "0.0.0",
+  "homepage": "--",
+  "authors": [
+    "arminakvn <armin.akhavan@gmail.com>"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "semantic-ui": "latest"
+  }
+}
