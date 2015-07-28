@@ -12,6 +12,7 @@
   "author": "Armin Akhavan armin.akhavan@gmail.com",
   "license": "Apache Version 2.0",
   "dependencies": {
+    "angular": "^1.4.3",
     "async": "latest",
     "bower": "latest",
     "daemon": "latest",

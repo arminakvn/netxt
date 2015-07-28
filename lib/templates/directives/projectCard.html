@@ -1,0 +1,21 @@
+
+<div>
+  <div class="header">{{project.name}}</div>
+  <div class="content">
+    <h4 class="ui sub header"><a>{{project.empl}}</a></h4>
+    <div class="ui small feed">
+        <div class="content">
+          <div class="meta">
+            {{project.date_s | date:'yyyy-MM'}} to {{project.date_e | date:'yyyy-MM'}}
+          </div>
+          <div class="description">
+            {{project.describtion}}
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="extra content">
+    <button ui-sref="{{project.name | slugify}}" class="ui button">See more</button>
+  </div>
+
+</div>

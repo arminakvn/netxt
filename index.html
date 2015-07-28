@@ -7,42 +7,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
   <!-- Site Properities -->
-  <title>Express - Gcloud - Semantic</title>
+  <title>Armin Akhavan</title>
 
   <link rel="stylesheet" type="text/css" href="semantic.css">
   <link rel="stylesheet" type="text/css" href="grid.css">
-
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
   <script src="semantic.js"></script>
-</head>
-<body id="home">
-  <div class="ui vertical segment">
-    <div class="ui stackable left aligned page grid">
-      <div class="row">
-        <div class="four wide column">
-          <div class="column">
-            </div>
-            <div class="column">
-          <h1 class="ui header">
-            <!-- <i class="refresh icon"></i> -->
-            express + gcloud + semantic-ui + docker  
-          </h1>
-          <h2>
-          </h2>
-          <h2>
-          </h2>
-          <h3>
-          </h3>
-          <h4>
-          </h4>
-          <h4>
-          </h4>
-          </div>
-          <div class="ui horizontal divider"></div>
+  <script src="angular.js"></script>
+  <script src="angular-ui-router.js"></script>
+  <script src="angular-slugify.js"></script>
+  <script src="angular-resource.js"></script>
+    <script src="application.js"></script>
+<script src="projects.js"></script>
+  <script src="InformationDesignCtrl.js"></script>
+<script src="projectCtrl.js"></script>
+  <script src="projectListCtrl.js"></script>
+  <script src="directives/projectCard.js"></script>
+  
 
-        </div>
-      </div>
-    </div>
+  
+  
+
+</head>
+<body>
+  <div ng-app="app">
+    <div ng-include="'templates/navigation.html'"></div>
+    <div ui-view> </div>
   </div>
+
 </body>
 </html>

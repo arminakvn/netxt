@@ -3,7 +3,7 @@
 *******************************/
 
 html {
-  font-size: 14px;
+  font-size: 12px;
 }
 
 
@@ -13,6 +13,10 @@ html {
 
 #home .menu .right.menu > .mobile.item {
   display: none;
+}
+p {
+  font-size: 11px;
+  line-height: 3;
 }
 
 /*--------------

@@ -17,6 +17,9 @@
     "tests"
   ],
   "dependencies": {
-    "semantic-ui": "latest"
+    "semantic-ui": "latest",
+    "angular-ui-router": "~0.2.15",
+    "angular-slugify": "~1.0.1",
+    "angular-resource": "~1.4.3"
   }
 }

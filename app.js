@@ -37,6 +37,12 @@ app.use(require('./lib/appengine-handlers'));
 // app.use( express.errorHandler({ dumpExceptions: true, showStack: true }));
 app.use(serveStatic('./', {'index': ['index.html', 'index.htm']}))
 app.use(serveStatic('./bower_components/semantic-ui/dist'))
+app.use(serveStatic('./node_modules/angular'))
+app.use(serveStatic('./bower_components/angular-ui-router/release'))
+app.use(serveStatic('./bower_components/angular-slugify'))
+app.use(serveStatic('./bower_components/angular-resource'))
+app.use(serveStatic('./lib/controllers'))
+app.use(serveStatic('./lib/services'))
 app.use(serveStatic('./lib'))
 // app.set('view engine', 'ejs');
 app.get('/', function(req, res) {
