@@ -1,5 +1,5 @@
 [
-{"category":"Information Design", "name": "Twitter Scraping", "describtion": "something", "empl": "NEU", "date_s":"2015-01", "date_e":"2015-04", "link" : "", "image": "", "pdf": "", "htmlMarkup":""},
+{"category":"Information Design", "name": "twitter-scrapping", "describtion": "something", "empl": "NEU", "date_s":"2015-01", "date_e":"2015-04", "link" : "", "image": "", "pdf": "", "htmlMarkup":""},
 {"name": "NEU Energy Sonification", "describtion": "something", "empl": 
 "NEU" , "link" : "", "image": "", "pdf": "", "htmlMarkup":""},
 {"category":"Information Design" , "name": "Interactive Legend for Bivariate Choropleth Maps", "describtion": "something", "empl": 
