@@ -1,0 +1,6 @@
+{
+	"title":"Bivariate Interactive Legend",
+	"scope": "Recently, we have been working  at Northeastern's Information Design lab on a javascript library project for making interactive legends that could be used with leafletjs for making choropleth maps. We used the great chromajs library, in combination with leafletjs. Here is a demo of the project, where we have a bivariate choropleth map with interactive legend (note that the data is faked). ", 
+	"challenges": "We initially wanted to make a project focused on bivariate choropleth maps, but we ended up focusing on the values/benefits of having an interactive legend in terms of how interactivity improves perception, particularly in case of choropleth map legends. We are relatively new to javascript programming, but we tried to make this in a way that a user could easily add it to any leafletjs map, could choose the number of classes as an argument, also choose two colors that get interpolated using chromajs. In order to make a comparison we made another version, in which we have disabled the interactivity of the legend trying to show the difference.", 
+	"images":["api/bil1.png","api/bil2.png"]
+}

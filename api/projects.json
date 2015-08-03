@@ -1,11 +1,47 @@
 [
-{"category":"Information Design", "name": "twitter-scrapping", "describtion": "something", "empl": "NEU", "date_s":"2015-01", "date_e":"2015-04", "link" : "", "image": "", "pdf": "", "htmlMarkup":""},
-{"name": "NEU Energy Sonification", "describtion": "something", "empl": 
-"NEU" , "link" : "", "image": "", "pdf": "", "htmlMarkup":""},
-{"category":"Information Design" , "name": "Interactive Legend for Bivariate Choropleth Maps", "describtion": "something", "empl": 
-"NEU", "link" : "", "image": "", "pdf": "", "htmlMarkup":""},
-{"category":"Information Design" ,"name": "Interactive Video for Colombinus Play", "describtion": "something", "empl": 
-"NEU", "link" : "", "image": "", "pdf": "", "htmlMarkup":""}
-
+	{
+		"category":"Information Design", 
+		"name": "twitter-scrapping", 
+		"describtion": "scrapping twitter data and visualization for in a policy analysis context", 
+		"empl": "NEU", 
+		"date_s":"2015-01", 
+		"date_e":"2015-04", 
+		"link" : ""
+	},
+	{
+		"name": "neu-energy-sonification", 
+		"describtion": "visualization of multi dimensional spatio-temporal dataset using sound", 
+		"empl": "NEU" , 
+		"date_s":"2015-01", 
+		"date_e":"2015-04", 
+		"link" : "" 
+	},
+	{
+		"category":"Information Design" , 
+		"name": "bivariate-interactive-legend", 
+		"describtion": "javascript library for leafletjs maps for making interactive legends for bivariate choropleth maps", 
+		"empl": "NEU", 
+		"date_s":"2015-01", 
+		"date_e":"2015-04", 
+		"link" : ""
+	},
+	{
+		"category":"UX UI" , 
+		"name": "landuse-scenario-modeling", 
+		"describtion": "User interface for land use scenario modeling tool built with ArcGIS, Scenario 360 CommunityViz", 
+		"empl": "MAPC", 
+		"date_s":"2014-01", 
+		"date_e":"2015-04", 
+		"link" : ""
+	},
+	{
+		"category":"Blog" , 
+		"name": "walkshed-with-no-network-analyst", 
+		"describtion": "Creating a walkshed analysis and map without network analyst", 
+		"empl": "MAPC", 
+		"date_s":"2014-01", 
+		"date_e":"2015-04", 
+		"link" : ""
+	}
 
 ]

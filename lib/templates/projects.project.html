@@ -3,14 +3,20 @@
         <i class="terminal icon"></i>
           {{Project.title}}
       </h3>
+      
+
     <p>{{Project.scope}}</p>
+    <div class="ui fluid images" ng-repeat="imagepath in Project.images">
+        <img class="ui fluid image"src="{{imagepath}}">
+
+      </div>
       <h4 class="ui dividing header">
-        <i class="terminal icon"></i>
+        <i class="quote left icon"></i>
           desctiption
       </h4>
     <p>  {{Project.descri}}</p>  
     <h4 class="ui dividing header">
-        <i class="terminal icon"></i>
+        <i class="quote left icon"></i>
           challenges
       </h4>
     <p> {{Project.challenges}}

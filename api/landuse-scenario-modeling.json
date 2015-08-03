@@ -1,0 +1,6 @@
+{
+	"title":"Land-use scenario modeling - ux/ui",
+	"scope": "An attempt to make visual explanation of a complex land use modeling application in a simplest way that yet retains the important components of the complex system. Land use scenario modeling applications usually suffer from the over complication issues due to the complexity of the tasks they perform. Don Norman argues, that 'complexity is in the mind of the beholder', meaning in this case, the user, which are not familiar with the processes of land use planning, consider the application 'too complicated', while the tasks require this complexity to accomplish what they are designed for. This project explains a land use scenario modeling tool, built using Scenario 360 CommunityViz, a plugin to esri ArcGIS, used for multiple projects done with Metropolitan Area Planning Council for cities and towns across metro Boston region", 
+	"challenges": "", 
+	"images":["api/lsm1.png"]
+}
