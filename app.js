@@ -24,28 +24,27 @@ var serveStatic = require('serve-static')
 
 var app = express();
 
-/* Include the app engine handlers to respond to start, stop, and health checks. */
-app.use(require('./lib/appengine-handlers'));
-// console.log(path.join("./bower_components", "shower-core" + '/shower.min.js'));
+app.set('views', __dirname + '/views')
+app.set('view engine', 'jade')
+app.set('view engine', 'pug')
 
-// [START hello_world]
-/* Say hello! */
-// app.use(express.cookieParser());
-// app.use(express.bodyParser());
-// app.use( app.router );
-// app.use( express.methodOverride() );
-// app.use( express.errorHandler({ dumpExceptions: true, showStack: true }));
-app.use(serveStatic('./', {'index': ['index.html', 'index.htm']}))
+// app.use(serveStatic('./', {'index': ['index.html', 'index.htm']}))
 app.use(serveStatic('./bower_components/semantic-ui/dist'))
 app.use(serveStatic('./lib'))
 // app.set('view engine', 'ejs');
-app.get('/', function(req, res) {
-  // res.status(200).send("Hello, world!");
-  res.render('index', function(err, html) {
-	  res.send(html);
-	});
-    // res.sendfile('./bower_components/shower-bright/index.html');
-});
+// app.get('/', function(req, res) {
+//   // res.status(200).send("Hello, world!");
+//   res.render('index', function(err, html) {
+// 	  res.send(html);
+// 	});
+//     // res.sendfile('./bower_components/shower-bright/index.html');
+// });
+
+app.get('/', function (req, res) {  
+    res.render(
+        'index',
+        { title: 'Hey Hey Hey!', message: 'Yo Yo'})
+})
 // [END hello_world]
 
 // [START server]
