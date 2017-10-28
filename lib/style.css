@@ -1,14 +1,62 @@
 html {
-	line-height: 2;
 }
 
 body {
  background: black;
  color: white; 
- font-size: x-large;
 }
 
 .mono {
 	font-family: monospace;
-	font-size: larger;
+}
+
+
+.bl {
+	color: black;
+}
+
+.active>.icon.customaccordicon {
+
+	display: none;
+	visibility: hidden;
+	opacity: 0;
+	transition: visibility 0s, opacity 0.5s linear;
+}
+
+.icon.customaccordiconcollapsed {
+	display: none;
+	visibility: hidden;
+	opacity: 0;
+	transition: visibility 0s, opacity 0.5s linear;
+}
+
+.active>.icon.customaccordiconcollapsed {
+	display: inline-block;
+	/* Firefox */
+
+	visibility: visible;
+	opacity: 1;
+}
+
+.icon.customaccordicon {
+	display: inline-block;
+	position: relative;
+	/* Firefox */
+-moz-transition: all .1s ease;
+/* WebKit */
+-webkit-transition: all .1s ease;
+/* Opera */
+-o-transition: all .1s ease;
+/* Standard */
+transition: all .1s ease;
+}
+
+.active>.icon.customaccordicon {
+	-moz-transform: rotate(45deg);
+/* WebKit */
+	-webkit-transform: rotate(45deg) ;
+	/* Opera */
+	-o-transform: rotate(45deg);
+	/* Standard */
+	transform: rotate(45deg) ;
 }

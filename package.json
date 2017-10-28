@@ -22,6 +22,7 @@
     "optimist": "latest",
     "pug": "^2.0.0-rc.4",
     "request": "latest",
+    "semantic-ui-icon": "^2.2.12",
     "serve-static": "latest"
   },
   "engines": {

@@ -8,11 +8,11 @@
     font-weight: bold;
     src: url("./fonts/CartoGothicStd-Bold.otf") format("openType");
 }
-@font-face {
+/*@font-face {
     font-family: "CartoGothicStd";
     font-weight: italic;
     src: url("./fonts/CartoGothicStd-Italic.otf") format("openType");
-}
+}*/
 
 * {
   -webkit-box-sizing: border-box;
@@ -26,7 +26,7 @@
 *******************************/
 
 html {
-  font-family: "CartoGothicStd", sans-serif;  font-weight: 200;  font-size: 13px;
+  font-family: "CartoGothicStd", sans-serif;  font-weight: 200;  font-size: 20px;
 }
 
 
@@ -34,7 +34,7 @@ html {
             Global
 *******************************/
 #home {
-    font-family: "CartoGothicStd", sans-serif;  font-weight: 200;  font-size: 13px;
+    font-family: "CartoGothicStd", sans-serif;  font-weight: 200;  font-size: 20px;
 
 }
 
@@ -46,29 +46,6 @@ html {
     Masthead
 ---------------*/
 
-#home .masthead {
-  background-image: url(images/bg.jpg);
-  margin: 0em;
-  padding: 5rem 0rem;
-}
-#home .masthead .column {
-  position: relative;
-}
-#home .masthead .information {
-  margin: 10em 1em 1em 350px;
-}
-#home .masthead .information p {
-  max-width: 600px;
-}
-#home .masthead .image {
-  position: absolute;
-  left: 0%;
-  bottom: -110px;
-}
-
-/*--------------
-    Ribbons
----------------*/
 
 #home .segment h1 {
   font-size: 3em;
@@ -76,7 +53,7 @@ html {
 }
 
 #home .vertical.segment {
-  padding: 12rem 0rem;
+  padding: 4rem 0rem;
 }
 
 #home .feature.segment {
