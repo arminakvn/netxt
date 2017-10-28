@@ -1,6 +1,14 @@
-	
+html {
+	line-height: 2;
+}
 
 body {
  background: black;
  color: white; 
+ font-size: x-large;
+}
+
+.mono {
+	font-family: monospace;
+	font-size: larger;
 }

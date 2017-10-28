@@ -1,15 +1,42 @@
+@font-face {
+    font-family: "CartoGothicStd";
+    font-weight: normal;
+    src: url("./fonts/CartoGothicStd-Book.otf") format("openType");
+}
+@font-face {
+    font-family: "CartoGothicStd";
+    font-weight: bold;
+    src: url("./fonts/CartoGothicStd-Bold.otf") format("openType");
+}
+@font-face {
+    font-family: "CartoGothicStd";
+    font-weight: italic;
+    src: url("./fonts/CartoGothicStd-Italic.otf") format("openType");
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
 /*******************************
             Global
 *******************************/
 
 html {
-  font-size: 14px;
+  font-family: "CartoGothicStd", sans-serif;  font-weight: 200;  font-size: 13px;
 }
 
 
 /*******************************
             Global
 *******************************/
+#home {
+    font-family: "CartoGothicStd", sans-serif;  font-weight: 200;  font-size: 13px;
+
+}
 
 #home .menu .right.menu > .mobile.item {
   display: none;
@@ -131,4 +158,41 @@ html {
   #home .selection.list .right.floated {
     display: none;
   }
+}
+ #heatmap {
+        height: 600px;
+        padding: 0;
+        margin: 0;
+      }
+#map {
+        height: 600px;
+        padding: 0;
+        margin: 0;
+      }
+
+ #content {
+        padding: 20px;
+        text-align: center;
+      }
+      .map {
+        float:left;
+        margin: 10px;
+        width: 500px;
+        height: 500px;
+        border: 1px solid #ccc;
+        background-color: #f8f8f8;
+      }
+      .map img { display: none; }
+
+
+.wholeDocument {
+      font-family: "CartoGothicStd", sans-serif;  
+      font-weight: 200;  
+      font-size: 13px;
+  
+      }
+
+h2{
+    font-family: "CartoGothicStd", sans-serif;  font-weight: 700;  font-size: 22px;
+
 }

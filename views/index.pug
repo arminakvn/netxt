@@ -7,18 +7,30 @@ block content
           .four.wide.column
             h2.ui.header.inverted
               // <i class="refresh icon"></i>
-              | armin akhavan's potfolio
+              span.mono 
+                | portfolio
         .sixteen.column.row
           .ten.wide.column
             .ui.fluid.inverted.accordion
-              .title.active
+              .title
                 i.dropdown.icon 
-                | LA Noise Array
-              .content.active Visualization specialist and web developer | Northeastern University – Information Design + Philips Lighting
+                span.mono
+                  | LA Noise Array
+              .content 
+                .ui.large.blue.label
+                  a(href='http://noisearray.northeastern.edu/', target='_blank')
+                    | noisearray.northeastern.edu
+                | | Visualization specialist and web developer 
+                p Northeastern University – Information Design + Philips Lighting
               .title
                 i.dropdown.icon
-                | Atlas of Lighting
-              .content I lead the data analysis, and developed the codes for extracting, manipulating, and reproducing the data. 
+                span.mono
+                  | Atlas of Lighting
+              .content 
+                .ui.large.blue.label
+                  a(href='http://atlas.lighting/', target='_blank')
+                    | atlas.lighting
+                | | I lead the data analysis, and developed the codes for extracting, manipulating, and reproducing the data. 
                 | in addition, I designed the web application and developed the back-end web server.
             h2
             h3
